@@ -5,13 +5,14 @@ func main() {
 	// card := newCard()
 	// fmt.Println(card)
 
-	cards := deck{newCard(), newCard()}
-	cards = append(cards, "new card")
+	// cards := deck{newCard(), newCard()}
+	// cards = append(cards, "new card")
 
+	cards := newDeck()
 	cards.print()
 
 }
 
-func newCard() string {
-	return "Ace of Spades"
-}
+// func newCard() string {
+// 	return "Ace of Spades"
+// }
