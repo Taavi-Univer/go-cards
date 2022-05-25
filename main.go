@@ -8,9 +8,17 @@ func main() {
 	// cards := deck{newCard(), newCard()}
 	// cards = append(cards, "new card")
 
-	cards := newDeck()
+	// cards := newDeck()
+	cards := newDeckFromFile("cards")
 	cards.print()
+	// hand, remainingCards := deal(cards, 5)
+	// hand.print()
+	// remainingCards.print()
 
+	// cards.toString()
+
+	// cards.saveToFile("cards")
+	// fmt.Println(cards.toString())
 }
 
 // func newCard() string {
